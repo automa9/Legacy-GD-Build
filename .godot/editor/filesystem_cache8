@@ -1,10 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1695314112
+::res://::1695653601
 icon.svg::CompressedTexture2D::6286025023710228244::1695129567::1695130097::1::::<><>::
 light.jpg::CompressedTexture2D::6223781474079714921::1695314095::1695314113::1::::<><>::
+LightDetail.png::CompressedTexture2D::4393628873701364736::1695361009::1695361009::1::::<><>::
 Player.gd::GDScript::-1::1695211817::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::863177014284168598::1695310375::0::1::::<><>::res://Player.gd<>uid://rh5wu0txrhdp::::res://Art/Character/Knight/Colour1/_Idle.png<>uid://bikc2hq8scvlm::::res://Art/Character/Knight/Colour1/_Run.png<>uid://cfqbfu1dtojgq::::res://Art/Character/Knight/Colour1/_Jump.png<>uid://bbn7p8g8xdbwb::::res://Art/Character/Knight/Colour1/_Fall.png
-testScene.tscn::PackedScene::3999574731932276171::1695313133::0::1::::<><>::uid://bi544k6tk11yw::::res://Art/Nature/background1.png<>uid://mkentuvbdlxu::::res://Player.tscn<>uid://c7gr20tn73hra::::res://Art/Nature/background_2.png<>uid://b05dys6l5610b::::res://Art/Nature/tileset.png<>uid://b7oaud1ngy7ir::::res://Art/Nature/background_0.png<>uid://bcnf33kngwkc8::::res://Art/Nature/background_1.png<>uid://blrn12dgdxjft::::res://Art/Pixel Dungeon/Spikes/Spikes.png<>uid://c3td3sfakx5nd::::res://Art/Nature/cloud5.png<>uid://cpt18si2i6eh2::::res://Art/Nature/cloud2.png<>uid://b002j2p72xjou::::res://Art/Nature/cloud4.png
+Player.tscn::PackedScene::863177014284168598::1695653597::0::1::::<><>::res://Player.gd<>uid://rh5wu0txrhdp::::res://Art/Character/Knight/Colour1/_Idle.png<>uid://bikc2hq8scvlm::::res://Art/Character/Knight/Colour1/_Run.png<>uid://b3ukoqbch5o4o::::res://LightDetail.png<>uid://cfqbfu1dtojgq::::res://Art/Character/Knight/Colour1/_Jump.png<>uid://bbn7p8g8xdbwb::::res://Art/Character/Knight/Colour1/_Fall.png
+testScene.tscn::PackedScene::3999574731932276171::1695653597::0::1::::<><>::uid://bi544k6tk11yw::::res://Art/Nature/background1.png<>uid://mkentuvbdlxu::::res://Player.tscn<>uid://c7gr20tn73hra::::res://Art/Nature/background_2.png<>uid://b05dys6l5610b::::res://Art/Nature/tileset.png<>uid://b7oaud1ngy7ir::::res://Art/Nature/background_0.png<>uid://bcnf33kngwkc8::::res://Art/Nature/background_1.png<>uid://blrn12dgdxjft::::res://Art/Pixel Dungeon/Spikes/Spikes.png<>uid://c3td3sfakx5nd::::res://Art/Nature/cloud5.png<>uid://cpt18si2i6eh2::::res://Art/Nature/cloud2.png<>uid://b002j2p72xjou::::res://Art/Nature/cloud4.png<>uid://cuw31h64037tt::::res://light.jpg
 ::res://Art/::1695129567
 ::res://Art/Character/::1695129567
 ::res://Art/Character/Knight/::1695129567
@@ -122,7 +123,8 @@ Vine_Left.png::CompressedTexture2D::6089725058449194749::1695129567::1695129567:
 Vine_Right.png::CompressedTexture2D::4626466842380281173::1695129567::1695129567::1::::<><>::
 ::res://Art/Pixel Dungeon/Window/::1695129567
 Window.png::CompressedTexture2D::8533007311958891121::1695129567::1695129567::1::::<><>::
-::res://Art/Props/::1695129567
+::res://Art/Props/::1695360986
+LightDetail.png::CompressedTexture2D::7582625198027527217::1695360986::1695360973::1::::<><>::
 spr_FirePlace2_strip.png::CompressedTexture2D::3188735793148081949::1695129567::1695129567::1::::<><>::
 spr_FirePlace_strip.png::CompressedTexture2D::2575095241068511845::1695129567::1695129567::1::::<><>::
 spr_Props.png::CompressedTexture2D::4863875456590966916::1695129567::1695129567::1::::<><>::

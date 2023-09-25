@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://bw8on8xgs7nhj"]
+[gd_scene load_steps=15 format=3 uid="uid://bw8on8xgs7nhj"]
 
 [ext_resource type="Texture2D" uid="uid://bi544k6tk11yw" path="res://Art/Nature/background1.png" id="1_88ocx"]
 [ext_resource type="PackedScene" uid="uid://mkentuvbdlxu" path="res://Player.tscn" id="2_ljbe1"]
@@ -160,15 +160,6 @@ texture = ExtResource("3_58x3b")
 [sub_resource type="TileSet" id="TileSet_xy4cm"]
 sources/0 = SubResource("TileSetAtlasSource_8a6gd")
 
-[sub_resource type="Gradient" id="Gradient_j404v"]
-
-[sub_resource type="FastNoiseLite" id="FastNoiseLite_falar"]
-noise_type = 0
-
-[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_rdy0x"]
-color_ramp = SubResource("Gradient_j404v")
-noise = SubResource("FastNoiseLite_falar")
-
 [node name="Node2D" type="Node2D"]
 
 [node name="Tree" type="Sprite2D" parent="."]
@@ -231,7 +222,8 @@ position = Vector2(480, 25)
 texture = ExtResource("9_ijc1m")
 
 [node name="DirectionalLight2D" type="DirectionalLight2D" parent="."]
-energy = 0.95
+color = Color(0.996078, 0.929412, 0.921569, 1)
+energy = 0.42
 blend_mode = 1
 
 [node name="Sprite2D" type="Sprite2D" parent="DirectionalLight2D"]
@@ -274,12 +266,4 @@ scale = Vector2(0.1262, 0.1262)
 color = Color(0.784314, 0.576471, 0.231373, 1)
 energy = 1.28
 texture = ExtResource("11_qnfeh")
-texture_scale = 0.53
-
-[node name="PointLight2D6" type="PointLight2D" parent="."]
-position = Vector2(461, 181)
-scale = Vector2(0.805029, 0.79098)
-color = Color(0.784314, 0.576471, 0.231373, 1)
-energy = 0.1
-texture = SubResource("NoiseTexture2D_rdy0x")
 texture_scale = 0.53
