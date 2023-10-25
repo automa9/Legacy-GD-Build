@@ -1,0 +1,8 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://kui6v2kr5ukg"]
+
+[ext_resource type="FontFile" uid="uid://m2tqmpera218" path="res://Fonts/NoticiaText-Regular.ttf" id="1_yr2p2"]
+
+[resource]
+Label/colors/font_color = Color(1, 1, 1, 1)
+Label/font_sizes/font_size = 18
+Label/fonts/font = ExtResource("1_yr2p2")

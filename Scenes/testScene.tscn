@@ -1,0 +1,64 @@
+[gd_scene load_steps=10 format=3 uid="uid://bw8on8xgs7nhj"]
+
+[ext_resource type="Texture2D" uid="uid://bi544k6tk11yw" path="res://Art/Nature/background1.png" id="1_88ocx"]
+[ext_resource type="PackedScene" uid="uid://mkentuvbdlxu" path="res://Scenes/Player.tscn" id="2_ljbe1"]
+[ext_resource type="Shader" path="res://MidTexture.gdshader" id="3_58ncy"]
+[ext_resource type="Shader" path="res://FgTexture.gdshader" id="12_0wjj3"]
+[ext_resource type="Texture2D" uid="uid://dlx0dimyiub6c" path="res://Art/Nature/background2.png" id="13_8474m"]
+[ext_resource type="Texture2D" uid="uid://bu40cycwg6585" path="res://Art/Nature/background3.png" id="14_5mn7k"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8bk5k"]
+shader = ExtResource("12_0wjj3")
+shader_parameter/direction = Vector2(1, 0)
+shader_parameter/speed_scale = 0.07
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_tjea3"]
+shader = ExtResource("3_58ncy")
+shader_parameter/direction = Vector2(1, 0)
+shader_parameter/speed_scale = 0.08
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ij154"]
+shader = ExtResource("12_0wjj3")
+shader_parameter/direction = Vector2(1, 0)
+shader_parameter/speed_scale = 0.2
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_8bk5k")
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 807.0
+offset_bottom = 641.0
+texture = ExtResource("1_88ocx")
+stretch_mode = 1
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_tjea3")
+offset_left = 1.0
+offset_top = 12.0
+offset_right = 819.0
+offset_bottom = 652.0
+texture = ExtResource("13_8474m")
+stretch_mode = 1
+
+[node name="TextureRect3" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_ij154")
+offset_left = 1.0
+offset_top = 12.0
+offset_right = 819.0
+offset_bottom = 652.0
+texture = ExtResource("14_5mn7k")
+stretch_mode = 1
+
+[node name="Player" parent="." instance=ExtResource("2_ljbe1")]
+position = Vector2(71, 266)
+scale = Vector2(0.5, 0.5)
+speed = 170
+
+[node name="DirectionalLight2D" type="DirectionalLight2D" parent="."]
+color = Color(0.996078, 0.929412, 0.921569, 1)
+energy = 0.0
+blend_mode = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="DirectionalLight2D"]

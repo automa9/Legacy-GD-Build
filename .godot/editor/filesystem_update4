@@ -1,2 +1,8 @@
-res://testScene.tscn
-res://Player.tscn
+res://Scenes/testScene.tscn
+res://MidTexture.gdshader
+res://FgTexture.gdshader
+res://BgTexture.gdshader
+res://Scenes/Player.tscn
+res://Scenes/interface.tscn
+res://Scenes/CounterDistance.tscn
+res://Scripts/Player.gd
