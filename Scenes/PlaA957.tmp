@@ -227,7 +227,9 @@ offset_top = 72.0
 offset_right = 11.0
 offset_bottom = 72.0
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="RigidBody2D"]
 position = Vector2(17, -45)
 rotation = 1.5708
 shape = SubResource("CapsuleShape2D_rejyd")

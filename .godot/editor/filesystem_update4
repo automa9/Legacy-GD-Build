@@ -6,3 +6,6 @@ res://Scenes/Player.tscn
 res://Scenes/interface.tscn
 res://Scenes/CounterDistance.tscn
 res://Scripts/Player.gd
+res://Scenes/airship_med.tscn
+res://Timer.gd
+res://Scenes/airship_med.gd
